@@ -1,0 +1,89 @@
+.container-i3 {    
+    margin: 15vh auto auto auto;
+    width: 50%;
+    background-color: #6a5acd;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+}
+
+.icon {
+    width: 150px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.challenge-input {
+    background-color: #fff;
+    border: 0;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.result-button {
+    background-color: #483d8b;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #898999;
+    text-align: center;
+}
+
+.result-button:hover {
+    background-color: #7b68ee;
+}
+
+.result-container {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .challenge-input {
+        width: 70%;
+    }
+
+    .flex-division {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .result-button {
+        padding: 8px;
+    }
+}

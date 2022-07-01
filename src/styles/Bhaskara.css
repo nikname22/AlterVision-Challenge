@@ -1,0 +1,36 @@
+.container-bhaskara {    
+    margin: 15vh auto auto auto;
+    width: 50%;    
+    background-color: #cc0000;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.result-button-bhaskara {
+    background-color: #800000;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #898999;
+    text-align: center;
+}
+
+.result-button-bhaskara:hover {
+    background-color: #b30000;
+}
+
+.icon-bhaskara {
+    width: 120px;
+    fill:white
+}

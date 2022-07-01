@@ -1,0 +1,115 @@
+.navbar {
+    background-color: #212121;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+
+  .nav-menu {
+    background-color: #212121;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    margin-right: 20px;
+  } 
+
+  #i3 a:hover {
+    background-color: #6a5acd;
+  }
+
+  #imc a:hover {    
+    background-color: #3CB371;
+  }
+
+  #bhaskara a:hover {    
+    background-color: #b30000;
+  }
+
+  .nav-menu-items {
+    width: 100%;
+  }
+
+  .navbar-toggle {
+    background-color: #212121;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  } 
+
+  .hamburguer > span {
+    display: block;
+    width: 28px;
+    height: 2px;
+    border-radius: 9999px;
+    background-color: white;
+  }
+
+  .hamburguer > span:not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  .hamburguer, .hamburguer > span {
+    transition: all .4s ease-in-out;
+  }
+
+  .hamburguer.active {
+    transition-delay: 0.8s;
+    transform: rotate(45deg);
+  }
+
+  .hamburguer.active > span:nth-child(2) {
+    width: 0;
+  }
+
+  .hamburguer.acttive > span:nth-child(1)
+  .hamburguer.acttive > span:nth-child(3) {
+    transition-delay: -4s;
+  }
+
+  .hamburguer.active > span:nth-child(1) {
+    transform: translateY(9px);
+  }
+
+  .hamburguer.active > span:nth-child(3) {
+    transform: translateY(-9px) rotate(90deg);
+  }
